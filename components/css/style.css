@@ -1,0 +1,26 @@
+* {
+
+  padding: 0rem;
+  margin: 0rem;
+  border: 0rem;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+
+}
+
+:root {
+
+  --text-color: #222222;
+  --text-blue: #122AB2;
+  --color-light: #FFFFFF;
+
+}
+
+body {
+
+  width: 100%;
+  min-height: 100dvh;
+  
+}
