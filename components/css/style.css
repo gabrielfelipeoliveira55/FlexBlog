@@ -10,6 +10,13 @@
 
 }
 
+img {
+
+  display: block;
+  max-width: 100%;
+  
+}
+
 :root {
 
   --text-color: #222222;
