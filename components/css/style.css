@@ -20,9 +20,13 @@ img {
 :root {
 
   --color-dark: #222222;
+  --color-text-primary: #7C7C7C;
   --color-primary: #122AB2;
   --color-secondary: #2C70FF;
   --color-light: #FFFFFF;
+
+
+  --border-style: 0.125rem solid var(--color-secondary);
 
 }
 
@@ -122,5 +126,65 @@ body {
 .menu-nav a:hover {
 
   color: var(--color-primary);
+
+}
+
+/* ? Intruduction */
+
+.introduction {
+
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  max-width: 60rem; /* 960px */
+  margin: 0rem auto; /* 0px auto */
+  padding: 3.75rem 0.625rem; /* 60px 10px */
+    
+}
+
+/* ? About */
+
+.about {
+
+  border-top: var(--border-style);
+  border-bottom: var(--border-style);
+  padding: 3.75rem 0.625rem; /* 60px 10px */
+  max-width: 60rem; /* 960px */
+  margin: 0rem auto; /* 0px auto */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem; /* 20px */
+  
+}
+
+.about-info {
+
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 18.75rem; /* 300px */
+  gap: 1.25rem; /* 20px */
+ 
+}
+
+.about-title {
+
+  font-size: 3rem; /* 48px */
+  font-weight: bold;
+  margin-bottom: 0.3125rem; /* 5px */
+  
+}
+
+.about-description {
+
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+
+}
+
+.about-img {
+
+  /* height: 180px; */
+  flex: 1 1 10rem; /* 160px */ 
 
 }
