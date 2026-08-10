@@ -20,11 +20,16 @@ img {
 :root {
 
   --color-dark: #222222;
+  --color-bg: #F7F7F7;
   --color-text-primary: #7C7C7C;
+  --color-text-secondary: #A4A4A4;
   --color-primary: #122AB2;
   --color-secondary: #2C70FF;
   --color-light: #FFFFFF;
 
+  --color-accent-1: #AE81FF;
+  --color-accent-2: #f9265e;
+  --color-accent-3: #66d9eb;
 
   --border-style: 0.125rem solid var(--color-secondary);
 
@@ -186,5 +191,63 @@ body {
 
   /* height: 180px; */
   flex: 1 1 10rem; /* 160px */ 
+
+}
+
+/* ? Products */
+
+.products {
+
+  max-width: 60rem; /* 960px */
+  margin: 3.75rem auto; /* 60px auto */
+
+}
+
+.products h1 {
+
+  font-size: 3rem; /* 48px */
+  margin: 0rem 0.625rem 3.75rem 0.625rem; /* 0px 10px 60px 10px */
+
+}
+
+.products-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+
+}
+
+.products-item {
+
+  flex: 1 1 10.9375rem; /* 175px */
+  margin: 0.625rem; /* 10px */
+  background: var(--color-bg);
+ 
+}
+
+.products-item h2 {
+
+  font-size: 3rem; /* 48px */
+  padding: 3.75rem 1.25rem; /* 60px 20px */
+  color: var(--color-text-secondary);
+
+}
+
+.accent1 {
+
+  border-top: 8px solid var(--color-accent-1);  
+
+}
+
+.accent2 {
+
+  border-top: 8px solid var(--color-accent-2);  
+
+}
+
+.accent3 {
+
+  border-top: 8px solid var(--color-accent-3);  
 
 }
